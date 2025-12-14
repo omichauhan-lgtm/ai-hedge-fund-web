@@ -1,7 +1,7 @@
-# AI Hedge Fund Architect (Demo Build)
+# AI Hedge Fund Architect (Production Build)
 
 **Autonomous Hedge-Fund-as-a-Service Platform**
-*Tactile Retro-Futurism Interface | CSS Holographic Core*
+*Tactile Retro-Futurism Interface | WebGL 3D Core*
 
 ---
 
