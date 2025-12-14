@@ -34,13 +34,11 @@ export default function Home() {
   return (
     <div className="h-screen w-full flex bg-background overflow-hidden text-foreground font-sans selection:bg-primary selection:text-black relative">
 
-      {/* BACKGROUND: 3D Scene (Disabled for Stability) */}
-      <div className="absolute inset-0 z-0 opacity-40 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/20 via-black to-black">
-        {/* <Scene>
+      {/* BACKGROUND: 3D Scene (Active) */}
+      <div className="absolute inset-0 z-0 opacity-40">
+        <Scene>
           <TradingDeck />
-        </Scene> */}
-        {/* CSS Holographic Grid Fallback */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(18,18,18,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(18,18,18,0.1)_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_60%_at_50%_50%,#000_70%,transparent_100%)]" />
+        </Scene>
       </div>
 
       {/* FOREGROUND: Live Application */}
