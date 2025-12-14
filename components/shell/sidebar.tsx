@@ -40,6 +40,7 @@ export function Sidebar() {
                     <div className="space-y-1">
                         {[
                             { id: "OVERVIEW", label: "Dashboard", icon: LayoutDashboard },
+                            { id: "AGENTS", label: "AI Workforce", icon: Zap }, // Using Zap as placeholder, maybe change to Bot if available
                             { id: "STRATEGY", label: "Strategy Builder", icon: BrainCircuit },
                             { id: "BACKTEST", label: "Backtest Lab", icon: LineChart },
                         ].map((item) => (

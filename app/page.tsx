@@ -9,6 +9,7 @@ import { RegionSelector } from "@/components/flow/region-selector";
 import { Header } from "@/components/header";
 import { Sidebar } from "@/components/shell/sidebar";
 import { DashboardView, StrategyBuilderView, BacktestView, PortfolioView, ComplianceView } from "@/components/modules/views";
+import { AgentsView } from "@/components/modules/agents-view";
 import { AnimatePresence } from "framer-motion";
 
 export default function Home() {
@@ -53,6 +54,7 @@ export default function Home() {
 
             <AnimatePresence mode="wait">
               {activeView === 'OVERVIEW' && <DashboardView key="overview" />}
+              {activeView === 'AGENTS' && <AgentsView key="agents" />}
               {activeView === 'STRATEGY' && <StrategyBuilderView key="strategy" />}
               {activeView === 'BACKTEST' && <BacktestView key="backtest" />}
               {activeView === 'PORTFOLIO' && <PortfolioView key="portfolio" />}

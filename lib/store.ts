@@ -2,7 +2,7 @@ import { create } from 'zustand';
 
 type FlowState = 'LOGIN' | 'BOOT' | 'REGION' | 'DASHBOARD';
 type Region = 'USA' | 'INDIA' | 'UK' | 'GLOBAL';
-type View = 'OVERVIEW' | 'STRATEGY' | 'BACKTEST' | 'PORTFOLIO' | 'EXECUTION' | 'COMPLIANCE';
+type View = 'OVERVIEW' | 'STRATEGY' | 'BACKTEST' | 'PORTFOLIO' | 'EXECUTION' | 'COMPLIANCE' | 'AGENTS';
 
 interface AppState {
     flowState: FlowState;
