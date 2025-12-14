@@ -4,47 +4,52 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
-  }
+    --background: 0 0% 2%;
+    /* #050505 Vantablack */
+    --foreground: 0 0% 95%;
+    /* #F2F2F2 Platinum */
 
-  .dark {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
+    --card: 0 0% 5%;
+    /* #0D0D0D Deep Matte */
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 4%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 43 74% 66%;
+    /* #D4AF37 Champagne Gold */
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 9%;
+    /* #171717 */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 60%;
+    /* #999999 Silver */
+
+    --accent: 43 74% 66%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 15%;
+    /* Subtle edges */
+    --input: 0 0% 15%;
+    --ring: 43 74% 66%;
+
+    --radius: 0rem;
+    /* Sharp, precise corners for "Hedge Fund" look */
   }
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-
   body {
     @apply bg-background text-foreground;
-    font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
 
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #0a0a0a;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #333;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #444;
-}
-
-/* Grid Background Utility */
 .bg-grid-small-white {
   background-size: 40px 40px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),

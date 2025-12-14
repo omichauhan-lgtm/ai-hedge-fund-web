@@ -1,37 +1,53 @@
-# AI Hedge Fund Architect - Web Dashboard
+# AI Hedge Fund Architect (Demo Build)
 
-## Overview
-This is the high-fidelity Command Center for the AI Hedge Fund.
-Designed with a "Contra-inspired" premium aesthetic:
-- **Neo-Brutalism x Glassmorphism**: Strong borders meets blurred backgrounds.
-- **Dark Mode Native**: Optimized for professional trading environments.
-- **Interactive**: Framer Motion animations for all state changes.
+**Autonomous Hedge-Fund-as-a-Service Platform**
+*Tactile Retro-Futurism Interface | CSS Holographic Core*
 
-## Tech Stack
-- **Framework**: Next.js 14 (App Router)
-- **Styling**: TailwindCSS
-- **Animation**: Framer Motion
-- **Icons**: Lucide React
+---
 
-## How to Run
-1.  **Install Dependencies**:
-    ```bash
-    npm install
-    ```
-2.  **Start Development Server**:
-    ```bash
-    npm run dev
-    ```
-3.  **Open Browser**:
-    Visit `http://localhost:3000`
+## 🚀 How to Run (For Friends & Demo)
 
-## Features
-- **Real-time Feed**: Simulates streaming strategy performance updates.
-- **Execution Queue**: Interactive approval flow for AI-generated trades.
-- **Regime Detection**: Visual indicators of current market state.
+Welcome! This is the demo build of the AI Hedge Fund Architect. Follow these steps to get it running on your local machine.
 
-## Deployment
-This app is ready for Vercel.
-1.  Run `npm run build` to verify the production build.
-2.  Push to git.
-3.  Import to Vercel/Netlify.
+### Prerequisites
+1.  **Node.js**: You need Node.js installed (v18 or higher recommended). [Download Here](https://nodejs.org).
+2.  **Git**: To clone the repo. [Download Here](https://git-scm.com).
+
+### Installation (One-Time)
+Open your terminal (Command Prompt or PowerShell) and run:
+
+```bash
+# 1. Clone this repository (skip if you already have the folder)
+git clone <YOUR_REPO_URL_HERE>
+cd ai-hedge-fund-web
+
+# 2. Install dependencies
+npm install
+```
+
+### ⚡ Start the App
+To launch the "War Room" dashboard:
+
+```bash
+npm run dev
+```
+
+Then open your browser to: **[http://localhost:3000](http://localhost:3000)**
+
+---
+
+## 💎 Features to Show Off
+1.  **Holographic Dashboard**: A luxury "Void Black" & Gold interface.
+2.  **Live Simulation**: Watch the **NAV Chart** tick in real-time.
+3.  **Active Execution**: Go to the right panel and click **[APPROVE]** on trades.
+4.  **Responsive Navigation**: Click "Strategy Builder" in the sidebar to verify the layout changes.
+
+---
+
+## 🛠️ Troubleshooting
+-   **"Port 3000 in use"**: If it fails to start, verify no other `node` processes are running.
+-   **Blank Screen**: Refresh the page. This build uses a high-performance CSS grid for maximum stability.
+
+---
+
+*Built by [Your Name]*
