@@ -16,6 +16,8 @@ Welcome! This is the demo build of the AI Hedge Fund Architect. Follow these ste
 ### Installation (One-Time)
 Open your terminal (Command Prompt or PowerShell) and run:
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fomichauhan-lgtm%2Fai-hedge-fund-web)
+
 ```bash
 # 1. Clone this repository (skip if you already have the folder)
 git clone <YOUR_REPO_URL_HERE>
